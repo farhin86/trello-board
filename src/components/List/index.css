@@ -1,0 +1,62 @@
+.list-wrapper {
+  background-color: #ebecf0;
+  width: 12rem;
+  margin: 0% 2%;
+  box-shadow: 0 2px 8px 0 grey;
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-header {
+  display: flex;
+  justify-content: space-between;
+}
+.list-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.cross {
+  color: #535665;
+  padding-top: 5px;
+  font-size: 12px;
+  opacity: 0.8;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+}
+.add-card {
+  border: 2px solid black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.card-btn {
+  padding: 0rem 1rem;
+  font-size: 12px;
+  min-width: 4rem;
+}
+section {
+  width: 100%;
+}
+input,
+textarea {
+  margin-bottom: 4%;
+  width: 90%;
+  border-radius: 3px;
+  height: 1rem;
+  border: 1px solid grey;
+  padding: 4%;
+}
+.desc {
+  height: 4rem;
+}

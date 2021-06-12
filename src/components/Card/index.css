@@ -1,0 +1,29 @@
+.card-section {
+  background-color: #ffffff;
+  width: 90%;
+  margin: 10% 0%;
+  box-shadow: 0 2px 8px 0 grey;
+  border-radius: 8px;
+  padding: 5%;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  text-align: left;
+}
+.cross {
+  cursor: pointer;
+}
+.sub-title {
+  color: #535665;
+  padding-top: 5px;
+  font-size: 12px;
+  opacity: 0.8;
+  font-weight: 400;
+  text-align: left;
+}
